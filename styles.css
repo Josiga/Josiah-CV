@@ -1,0 +1,301 @@
+body{
+    width: 612px;
+    height: auto;
+
+    background: #FFFFFF;
+    border-style: solid;
+    border-color: black;
+}
+
+hr{
+    width: 612px;
+    height: 1px;
+    left: 0px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+      
+    background: #1162DB;
+    border-style: none;
+}
+
+.bar{
+    width: 10px;
+    height: 120px;
+    margin-left: 0;
+    background: #1162DB;
+}
+
+header{
+    display: inline-flex;
+    align-items: center;
+}
+
+h1{
+    width: 237px;
+    height: 114px;
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 65px;
+    line-height: 87%;
+
+    font-variant: small-caps;
+}
+
+.header-tag{
+    width: 300px;
+    margin-left: 100px;
+}
+
+.header-tag a {
+    margin:3px 0;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.header-tag p {
+    margin:3px 0;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+p{
+    font: 14px;
+    font-family: Ubuntu;
+}
+
+h3{
+    font-family: Ubuntu;
+    font-size: 16px;
+}
+
+h4{
+    font-family: Ubuntu;
+}
+
+li{
+    font-size: 14px;
+    font-family: Ubuntu;
+}
+
+h2{
+    width: 86px;
+    height: 17px;
+    left: 43px;
+    top: 50px;
+    margin: 05px auto 5px 0;
+    
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: strong;
+    font-size: 17px;
+    line-height: 100%;
+    color: #1162DB;
+}
+
+.experience{
+    height: 600px;
+    margin: 0 40px;
+    top: 196px;
+    display: block;
+
+    background-color: hsla(215, 75%, 97%, 0.219);
+    width: 525px;
+}
+
+.trainings{
+    height: 150px;
+    margin: 0 40px;
+    top: 196px;
+    width: 525px;
+}
+
+.taining-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 0;
+}
+
+.trainings h2{
+    margin-left: 5px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.zuri{
+    width: 175px;
+    font-size: 14px;
+    margin-top: 0px;
+}
+
+.zuri h3{
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.zuri h4{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.vhn {
+    width: 175;
+    font-size: 14px;
+    margin-top: 0px;
+}
+
+.vhn h3{
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.vhn h4{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.ilab {
+    width: 175px;
+    font-size: 14px;
+}
+
+.ilab h3{
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.ilab h4{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.cxi h3{
+    margin-top: 10px;
+    margin-bottom: 0%;
+}
+.cxi h4{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.cxi ul{
+    margin-left: -25px;
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+
+/*.gen{
+    height: 244px;
+    width: 525px;
+}*/
+
+.gen ul{
+    margin-bottom: 20px;
+    margin-left: -25px;
+    margin-top: 5px;
+}
+
+.gen h3{
+    margin-top: 10px;
+    margin-bottom: 0%;
+}
+
+.gen h4{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.medi ul{
+    margin-bottom: 20px;
+    margin-left: -25px;
+    margin-top: 5px;
+}
+
+.medi h3{
+    margin-top: 10px;
+    margin-bottom: 0%;
+}
+.medi h4{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.eduction{
+    height: 100px;
+    margin: 0 40px;
+    top: 196px;
+    background-color: #f1f6fd9b;
+    width: 525px;
+    box-sizing: 50px;
+}
+
+.education-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.uds{
+    width: 175px;
+    font-size: 14px;
+    margin-left: 0%;
+}
+
+.usd h4{
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.saasd{
+    width: 175px;
+    font-size: 14px;
+    
+}
+
+.saasd h3{
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.fut{
+    width: 175px;
+    font-size: 14px;
+}
+
+.fut h3{
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.skills{
+    height: 100px;
+    margin: 0 40px;
+    top: 196px;
+    justify-content: space-between;
+    width: 525px;
+}
+
+.skills p{
+    margin-left: 5px;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 25%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+footer a{
+    text-decoration: none;
+    font-family: Ubuntu;
+    font-size: 12px;
+}
